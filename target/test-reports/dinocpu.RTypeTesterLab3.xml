@@ -1,0 +1,210 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<testsuite hostname="codespaces-fde192" name="dinocpu.RTypeTesterLab3" tests="100" errors="0" failures="0" skipped="0" time="67.824" timestamp="2024-06-01T21:48:35">
+                     <properties>
+      <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/><property name="java.specification.version" value="11"/><property name="sun.cpu.isalist" value=""/><property name="sun.jnu.encoding" value="ANSI_X3.4-1968"/><property name="sun.arch.data.model" value="64"/><property name="java.vendor.url" value="https://ubuntu.com/"/><property name="sun.boot.library.path" value="/usr/lib/jvm/java-11-openjdk-amd64/lib"/><property name="sun.java.command" value="/root/.cache/sbt/boot/sbt-launch/1.8.0/sbt-launch-1.8.0.jar"/><property name="jdk.debug" value="release"/><property name="java.specification.vendor" value="Oracle Corporation"/><property name="java.version.date" value="2022-10-18"/><property name="java.home" value="/usr/lib/jvm/java-11-openjdk-amd64"/><property name="file.separator" value="/"/><property name="java.vm.compressedOopsMode" value="Zero based"/><property name="line.separator" value="
+"/><property name="java.specification.name" value="Java Platform API Specification"/><property name="java.vm.specification.vendor" value="Oracle Corporation"/><property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/><property name="java.runtime.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/><property name="user.name" value="root"/><property name="file.encoding" value="UTF-8"/><property name="jnidispatch.path" value="/tmp/jna-3506402/jna3704702067225076771.tmp"/><property name="jna.loaded" value="true"/><property name="java.io.tmpdir" value="/tmp"/><property name="java.version" value="11.0.17"/><property name="java.vm.specification.name" value="Java Virtual Machine Specification"/><property name="java.awt.printerjob" value="sun.print.PSPrinterJob"/><property name="sun.os.patch.level" value="unknown"/><property name="java.library.path" value="/usr/java/packages/lib:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib"/><property name="java.vendor" value="Ubuntu"/><property name="scala.ext.dirs" value="/root/.sbt/1.0/java9-rt-ext-ubuntu_11_0_17"/><property name="sun.io.unicode.encoding" value="UnicodeLittle"/><property name="java.class.path" value="/root/.cache/sbt/boot/sbt-launch/1.8.0/sbt-launch-1.8.0.jar"/><property name="java.vm.vendor" value="Ubuntu"/><property name="jline.shutdownhook" value="false"/><property name="user.timezone" value="GMT"/><property name="os.name" value="Linux"/><property name="java.vm.specification.version" value="11"/><property name="sun.java.launcher" value="SUN_STANDARD"/><property name="user.country" value="US"/><property name="sun.cpu.endian" value="little"/><property name="user.home" value="/root"/><property name="user.language" value="en"/><property name="sbt.script" value="/usr/bin/sbt"/><property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/><property name="jline.esc.timeout" value="0"/><property name="path.separator" value=":"/><property name="os.version" value="6.5.0-1021-azure"/><property name="jna.nosys" value="true"/><property name="java.runtime.name" value="OpenJDK Runtime Environment"/><property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/><property name="jna.platform.library.path" value="/usr/lib/x86_64-linux-gnu:/lib/x86_64-linux-gnu:/usr/lib64:/lib64:/usr/lib:/lib"/><property name="java.vendor.url.bug" value="https://bugs.launchpad.net/ubuntu/+source/openjdk-lts"/><property name="user.dir" value="/workspaces/ecs-154b-assignment3-awesometeam"/><property name="os.arch" value="amd64"/><property name="java.vm.info" value="mixed mode, sharing"/><property name="java.vm.version" value="11.0.17+8-post-Ubuntu-1ubuntu222.04"/><property name="java.class.version" value="55.0"/>
+    </properties>
+                     <testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction add1" time="4.081">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction add2" time="1.654">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction add0" time="1.561">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction addw1" time="1.556">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction addw2" time="1.422">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction addw3" time="1.506">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction or" time="1.685">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sub" time="1.276">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction subw1" time="1.092">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction subw2" time="1.444">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction subw3" time="1.046">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction and" time="1.06">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction xor" time="1.09">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction slt" time="0.907">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction slt1" time="0.916">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sltu" time="1.31">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sltu1" time="1.0">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sll" time="1.018">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sll2" time="1.025">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sllw1" time="0.965">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sllw2" time="1.067">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sllw3" time="1.015">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sllw4" time="0.947">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction srl" time="0.93">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction srl2" time="0.97">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction srlw1" time="0.949">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction srlw2" time="0.878">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction srlw3" time="0.615">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction srlw4" time="0.533">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sra" time="0.481">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sra2" time="0.447">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sraw1" time="0.44">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sraw2" time="0.459">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction sraw3" time="0.459">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mul-zero-positive" time="0.484">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mul-positive-positive" time="0.485">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mul-negative-positive" time="0.445">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mul-negative-negative" time="0.446">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mul-big-numbers-positive-positive" time="0.447">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mul-big-numbers-negative-positive" time="0.446">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mul-big-numbers-negative-negative" time="0.458">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulh-zero-positive" time="0.468">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulh-positive-positive" time="0.459">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulh-negative-positive" time="0.453">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulh-negative-negative" time="0.475">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulh-big-numbers-positive-positive" time="0.47">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulh-big-numbers-negative-positive" time="0.45">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulh-big-numbers-negative-negative" time="0.462">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulhu-zero" time="0.439">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulhu-small-numbers" time="0.434">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulhu-big-numbers-1" time="0.442">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulhu-big-numbers-2" time="0.458">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulhsu-zero-positive" time="0.447">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulhsu-positive-positive" time="0.472">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulhsu-negative-positive" time="0.439">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulhsu-big-numbers-positive-positive" time="0.442">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulhsu-big-numbers-negative-positive-1" time="0.471">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulhsu-big-numbers-negative-positive-2" time="0.469">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulw-zero-positive" time="0.473">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulw-positive-positive" time="0.444">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulw-negative-positive" time="0.452">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulw-negative-negative" time="0.446">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulw-big-numbers-positive-positive" time="0.446">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulw-big-numbers-negative-positive" time="0.46">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction mulw-big-numbers-negative-negative" time="0.449">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction div-positive-positive" time="0.462">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction div-positive-negative" time="0.449">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction div-negative-negative" time="0.465">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction div-division-by-zero" time="0.447">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction div-overflow" time="0.451">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction rem-positive-positive" time="0.438">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction rem-positive-negative" time="0.436">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction rem-negative-positive" time="0.453">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction rem-negative-negative" time="0.449">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction rem-division-by-zero" time="0.444">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction rem-overflow" time="0.443">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divu-1" time="0.457">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divu-2" time="0.45">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divu-division-by-zero" time="0.45">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remu-1" time="0.582">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remu-2" time="0.439">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remu-division-by-zero" time="0.466">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divw-positive-positive" time="0.443">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divw-positive-negative" time="0.459">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divw-negative-negative" time="0.449">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divw-sign-extension" time="0.448">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divw-division-by-zero" time="0.441">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divw-overflow" time="0.469">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remw-positive-positive" time="0.455">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remw-positive-negative" time="0.492">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remw-negative-negative" time="0.451">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remw-sign-extension" time="0.448">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remw-division-by-zero" time="0.441">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remw-overflow" time="0.44">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divuw-1" time="0.439">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divuw-2" time="0.447">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction divuw-division-by-zero" time="0.462">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remuw-1" time="0.442">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remuw-2" time="0.443">
+                                                 
+                                               </testcase><testcase classname="dinocpu.RTypeTesterLab3" name="Pipelined CPU should run R-type instruction remuw-division-by-zero" time="0.439">
+                                                 
+                                               </testcase>
+                     <system-out><![CDATA[]]></system-out>
+                     <system-err><![CDATA[]]></system-err>
+                   </testsuite>

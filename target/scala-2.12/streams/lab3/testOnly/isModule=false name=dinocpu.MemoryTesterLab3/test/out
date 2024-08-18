@@ -1,0 +1,70 @@
+[0m[[0m[0minfo[0m] [0m[0m[32mMemoryTesterLab3:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mPipelined CPU[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction lw1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction lb *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction lh *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction lbu *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction lhu *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction lb1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction lh1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction lwu *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction lwu1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction ld1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction ld2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction sw *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction sw2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction sb *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction sh *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction sd1 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m- should run memory-type instruction sd2 *** FAILED ***[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  firrtl.passes.CheckInitialization$RefNotInitializedException: @[cpu.scala 106:27] : [module PipelinedCPU]  Reference ex_mem is not fully initialized.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m   : ex_mem.io.in.mem_writedata <= VOID[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[31m  ...[0m[0m
