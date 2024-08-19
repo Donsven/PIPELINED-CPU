@@ -1,6 +1,6 @@
 Pipelined RISC-V CPU | Hardware project
 
-In this project, we designed and implemented a 5-stage pipelined CPU architecture:
+In this project, we designed and implemented a 5-stage pipelined CPU architecture using scala/chisel and the SBT to check our work:
 
 Instruction Fetch (IF) Stage:
 Objective: Efficiently retrieve instructions from memory.
